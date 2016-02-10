@@ -1,4 +1,4 @@
-## try liz data on home desktop. count files in folder"counts"
+## practice project number one
 getwd()
 
 setwd("~/Bioinformatics/myRprojects/")
