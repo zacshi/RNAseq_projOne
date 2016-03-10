@@ -4,7 +4,6 @@ getwd()
 setwd("~/Bioinformatics/myRprojects/")
 library(DESeq2)
 
-
 directory <-"~/Bioinformatics/myRprojects/counts"
 
 sampleFiles <- list.files(directory)
@@ -12,8 +11,6 @@ sampleFiles
 
 sampleCondition <- c("P1", "P1","P1","P1","P3","P3", "P3", "P3", "V","V","V","V")
 factor(sampleCondition, levels = c("V", "P1", "P3"))
-
-
 
 SampleTable <- data.frame(sampleNames = sampleFiles,
                           fileName = sampleFiles,
@@ -71,11 +68,6 @@ head(res1FinalOrdered)
 
 write.csv(res1FinalOrdered, "P3versusP1orderedbyPadj.csv")
 
-
-
-
-
-getwd()
 
 res2 <- results(ddsHTSeq, contrast = c("condition", "P3", "V"))
 res2
