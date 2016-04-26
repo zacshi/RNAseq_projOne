@@ -49,8 +49,7 @@ checkuptable <- getBM(
     mart= mart2)
 
 dim(checkuptable)
-head(checkuptable)
-tail(checkuptable)
+
 class(checkuptable)
 
 res1Table <- as.data.frame(res1)
