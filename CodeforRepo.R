@@ -1,4 +1,4 @@
-## practice project number one
+## practice project number one, I have to reveiw this for Xin's mouse work that's going to aligned with STAR, not tophat. 
 getwd()
 
 setwd("~/Bioinformatics/myRprojects/")
