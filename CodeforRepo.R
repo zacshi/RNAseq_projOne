@@ -223,7 +223,7 @@ plot(counts(ddsHTSeq)[topGene, ])
 
 boxplot(counts(ddsHTSeq)[topGene, ]~SampleTable$condition) ### THIS IS GREAT TO KNOW
 
-?boxplot
+
 plotCounts(ddsHTSeq, gene= "What", intgroup=c("condition"), pch = 19, col = "blue")
 plotCounts(ddsHTSeq, gene= "What", intgroup=c("condition"), pch = 19, col = "blue")
 
